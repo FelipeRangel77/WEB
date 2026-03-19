@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#6C5CE7" />
+    <title>invcentada (Percent %) — Contato</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="index.html" aria-label="Ir para Home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4.2 7.6C4.2 5.8 5.7 4.3 7.5 4.3C9.3 4.3 10.8 5.8 10.8 7.6C10.8 9.4 9.3 10.9 7.5 10.9C5.7 10.9 4.2 9.4 4.2 7.6Z" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M11.2 14.4C11.2 12.6 12.7 11.1 14.5 11.1C16.3 11.1 17.8 12.6 17.8 14.4C17.8 16.2 16.3 17.7 14.5 17.7C12.7 17.7 11.2 16.2 11.2 14.4Z" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M8.6 16.9L13.4 5.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="brand-text">invcentada (Percent %)</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Navegação principal">
+          <a href="index.html" data-page="home">Home</a>
+          <a href="services.html" data-page="services">Serviços</a>
+          <a href="gallery.html" data-page="gallery">Galeria</a>
+          <a href="contact.html" data-page="contact">Contato</a>
+        </nav>
+
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Alternar tema">
+          Dark mode
+        </button>
+      </div>
+    </header>
+
+    <main id="main" class="page">
+      <section class="page-hero">
+        <div class="container">
+          <div class="page-hero-grid">
+            <div>
+              <div class="pill">
+                <span class="pill-dot" aria-hidden="true"></span>
+                Vamos começar?
+              </div>
+              <h1 class="page-title">Contato direto e leve</h1>
+              <p class="page-subtitle">
+                Preencha rapidinho e a gente abre um e-mail pronto pra você mandar. Sem complicação.
+              </p>
+              <div class="hero-ctas">
+                <a class="btn btn-primary" href="gallery.html">Ver galeria</a>
+                <a class="btn btn-ghost" href="services.html">Quais serviços?</a>
+              </div>
+            </div>
+            <div class="page-hero-aside" aria-hidden="true">
+              <div class="aside-card">
+                <div class="aside-number">%</div>
+                <div class="aside-text">resposta rápida</div>
+              </div>
+              <div class="aside-card aside-card2">
+                <div class="aside-text">estilo pastel</div>
+                <div class="aside-mini">e dark mode incluído</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Formulário</h2>
+            <p class="section-subtitle">Validação básica + envio via `mailto`.</p>
+          </div>
+
+          <div class="form-wrap">
+            <form id="contactForm" class="form" data-mail-to="contato@invcentada.com" novalidate>
+              <div class="form-row">
+                <label class="label" for="name">Seu nome</label>
+                <input class="input" id="name" name="name" type="text" autocomplete="name" required minlength="2" />
+                <div class="field-error" id="nameError" aria-live="polite"></div>
+              </div>
+
+              <div class="form-row">
+                <label class="label" for="email">Seu e-mail</label>
+                <input class="input" id="email" name="email" type="email" autocomplete="email" required />
+                <div class="field-error" id="emailError" aria-live="polite"></div>
+              </div>
+
+              <div class="form-row">
+                <label class="label" for="subject">Assunto (opcional)</label>
+                <input class="input" id="subject" name="subject" type="text" autocomplete="off" />
+              </div>
+
+              <div class="form-row">
+                <label class="label" for="message">Mensagem</label>
+                <textarea class="input textarea" id="message" name="message" rows="5" required minlength="10"></textarea>
+                <div class="field-error" id="messageError" aria-live="polite"></div>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+                <div class="form-hint" id="formHint" aria-live="polite"></div>
+              </div>
+            </form>
+
+            <div class="form-side" aria-hidden="true">
+              <div class="side-card">
+                <div class="side-title">Dica rápida</div>
+                <div class="side-text">
+                  Conte o objetivo do site (vendas, portfólio, marca pessoal) e o estilo que você curte.
+                </div>
+              </div>
+              <div class="side-card side-card2">
+                <div class="side-title">A vibe %</div>
+                <div class="side-text">
+                  Minimalismo + cores pastéis + dark mode chamativo para jovens (16–30).
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <div class="footer-left">
+          <div class="footer-brand">invcentada (Percent %)</div>
+          <div class="footer-copy">Minimalismo pastel com energia.</div>
+        </div>
+        <div class="footer-links" aria-label="Links rápidos">
+          <a href="index.html">Home</a>
+          <a href="services.html">Serviços</a>
+          <a href="gallery.html">Galeria</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+

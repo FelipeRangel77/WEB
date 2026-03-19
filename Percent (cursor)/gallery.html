@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#6C5CE7" />
+    <title>invcentada (Percent %) — Galeria</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="index.html" aria-label="Ir para Home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M4.2 7.6C4.2 5.8 5.7 4.3 7.5 4.3C9.3 4.3 10.8 5.8 10.8 7.6C10.8 9.4 9.3 10.9 7.5 10.9C5.7 10.9 4.2 9.4 4.2 7.6Z" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M11.2 14.4C11.2 12.6 12.7 11.1 14.5 11.1C16.3 11.1 17.8 12.6 17.8 14.4C17.8 16.2 16.3 17.7 14.5 17.7C12.7 17.7 11.2 16.2 11.2 14.4Z" stroke="currentColor" stroke-width="1.6"/>
+              <path d="M8.6 16.9L13.4 5.1" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="brand-text">invcentada (Percent %)</span>
+        </a>
+
+        <nav class="site-nav" aria-label="Navegação principal">
+          <a href="index.html" data-page="home">Home</a>
+          <a href="services.html" data-page="services">Serviços</a>
+          <a href="gallery.html" data-page="gallery">Galeria</a>
+          <a href="contact.html" data-page="contact">Contato</a>
+        </nav>
+
+        <button id="themeToggle" class="theme-toggle" type="button" aria-label="Alternar tema">
+          Dark mode
+        </button>
+      </div>
+    </header>
+
+    <main id="main" class="page">
+      <section class="page-hero">
+        <div class="container">
+          <div class="page-hero-grid">
+            <div>
+              <div class="pill">
+                <span class="pill-dot" aria-hidden="true"></span>
+                Inspirações com toque de %
+              </div>
+              <h1 class="page-title">Galeria que chama atenção</h1>
+              <p class="page-subtitle">
+                Sem imagens externas: tudo aqui é visual gerado com gradientes e um estilo minimalista que fica marcante.
+              </p>
+              <div class="hero-ctas">
+                <a class="btn btn-primary" href="contact.html">Quero um estilo assim</a>
+                <a class="btn btn-ghost" href="services.html">Ver serviços</a>
+              </div>
+            </div>
+
+            <div class="page-hero-aside" aria-hidden="true">
+              <div class="aside-card">
+                <div class="aside-number">%</div>
+                <div class="aside-text">pastel + contraste</div>
+              </div>
+              <div class="aside-card aside-card2">
+                <div class="aside-text">claro no light</div>
+                <div class="aside-mini">e confortável no dark</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title">Exemplos</h2>
+            <p class="section-subtitle">Clique para abrir detalhes (modal acessível).</p>
+          </div>
+
+          <div class="gallery-grid" role="list">
+            <button
+              type="button"
+              class="gallery-item"
+              role="listitem"
+              data-title="Hero Pastel Orbit"
+              data-desc="Uma capa leve, com profundidade e um acento em porcentagem."
+              data-tags="design, hero, pastel"
+              data-gradient="linear-gradient(135deg, rgba(108,92,231,0.35), rgba(0,180,216,0.25), rgba(255,107,107,0.25))"
+            >
+              <span class="gallery-item-inner">
+                <span class="gallery-percent" aria-hidden="true">%</span>
+              </span>
+            </button>
+
+            <button
+              type="button"
+              class="gallery-item"
+              role="listitem"
+              data-title="Cards Suaves"
+              data-desc="Bordas arredondadas, sombras delicadas e hover que não cansa."
+              data-tags="cards, ui, minimal"
+              data-gradient="linear-gradient(135deg, rgba(255,206,86,0.35), rgba(108,92,231,0.22), rgba(0,180,216,0.20))"
+            >
+              <span class="gallery-item-inner">
+                <span class="gallery-percent" aria-hidden="true">%</span>
+              </span>
+            </button>
+
+            <button
+              type="button"
+              class="gallery-item"
+              role="listitem"
+              data-title="Botões com Energia"
+              data-desc="CTA bem visível com contraste gostoso e sensação premium."
+              data-tags="cta, buttons, vibe"
+              data-gradient="linear-gradient(135deg, rgba(255,107,107,0.30), rgba(255,206,86,0.22), rgba(108,92,231,0.22))"
+            >
+              <span class="gallery-item-inner">
+                <span class="gallery-percent" aria-hidden="true">%</span>
+              </span>
+            </button>
+
+            <button
+              type="button"
+              class="gallery-item"
+              role="listitem"
+              data-title="Dark Mode Aconchegante"
+              data-desc="Transições suaves, cores mais escuras sem perder a legibilidade."
+              data-tags="darkmode, acessibilidade"
+              data-gradient="linear-gradient(135deg, rgba(0,180,216,0.22), rgba(108,92,231,0.30), rgba(255,107,107,0.20))"
+            >
+              <span class="gallery-item-inner">
+                <span class="gallery-percent" aria-hidden="true">%</span>
+              </span>
+            </button>
+
+            <button
+              type="button"
+              class="gallery-item"
+              role="listitem"
+              data-title="Form Claro e Rápido"
+              data-desc="Validação leve e envio via mailto com mensagem preenchida."
+              data-tags="form, contato, ux"
+              data-gradient="linear-gradient(135deg, rgba(255,206,86,0.30), rgba(0,180,216,0.22), rgba(255,107,107,0.18))"
+            >
+              <span class="gallery-item-inner">
+                <span class="gallery-percent" aria-hidden="true">%</span>
+              </span>
+            </button>
+
+            <button
+              type="button"
+              class="gallery-item"
+              role="listitem"
+              data-title="Modal Lightbox"
+              data-desc="Fundo com blur, foco no conteúdo e fechamento com ESC."
+              data-tags="modal, acessível"
+              data-gradient="linear-gradient(135deg, rgba(108,92,231,0.30), rgba(0,180,216,0.25), rgba(255,206,86,0.18))"
+            >
+              <span class="gallery-item-inner">
+                <span class="gallery-percent" aria-hidden="true">%</span>
+              </span>
+            </button>
+
+            <button
+              type="button"
+              class="gallery-item"
+              role="listitem"
+              data-title="Gradiente com Ritmo"
+              data-desc="Um padrão sutil que mantém o minimalismo e adiciona personalidade."
+              data-tags="gradiente, estilo"
+              data-gradient="linear-gradient(135deg, rgba(255,107,107,0.25), rgba(108,92,231,0.25), rgba(0,180,216,0.18))"
+            >
+              <span class="gallery-item-inner">
+                <span class="gallery-percent" aria-hidden="true">%</span>
+              </span>
+            </button>
+
+            <button
+              type="button"
+              class="gallery-item"
+              role="listitem"
+              data-title="Seções com Hierarquia"
+              data-desc="Titulos claros, espaçamento consistente e leitura fluida."
+              data-tags="layout, tipografia"
+              data-gradient="linear-gradient(135deg, rgba(0,180,216,0.26), rgba(255,206,86,0.20), rgba(108,92,231,0.20))"
+            >
+              <span class="gallery-item-inner">
+                <span class="gallery-percent" aria-hidden="true">%</span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <div
+        id="galleryModal"
+        class="modal"
+        aria-hidden="true"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="galleryModalTitle"
+      >
+        <div class="modal-backdrop" data-close="true" aria-hidden="true"></div>
+        <div class="modal-panel" role="document">
+          <div class="modal-head">
+            <div class="modal-visual" id="modalVisual" aria-hidden="true"></div>
+            <div class="modal-meta">
+              <h2 class="modal-title" id="galleryModalTitle"></h2>
+              <p class="modal-desc" id="galleryModalDesc"></p>
+              <div class="modal-tags" id="galleryModalTags" aria-label="Tags"></div>
+            </div>
+            <button id="galleryClose" class="icon-btn" type="button" aria-label="Fechar modal">
+              <span aria-hidden="true">✕</span>
+            </button>
+          </div>
+
+          <div class="modal-actions">
+            <a class="btn btn-primary" href="contact.html">Falar sobre esse estilo</a>
+            <button id="galleryClose2" class="btn btn-ghost" type="button">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <div class="footer-left">
+          <div class="footer-brand">invcentada (Percent %)</div>
+          <div class="footer-copy">Minimalismo pastel com energia.</div>
+        </div>
+        <div class="footer-links" aria-label="Links rápidos">
+          <a href="index.html">Home</a>
+          <a href="services.html">Serviços</a>
+          <a href="contact.html">Contato</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+
